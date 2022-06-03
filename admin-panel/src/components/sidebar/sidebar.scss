@@ -1,0 +1,51 @@
+.sidebar{
+    border-right: 0.5px solid lightgray;  
+    min-height: 100vh;
+    // background-color: black;
+     flex: 1;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(68, 68, 68);
+        }
+    }
+hr{
+    height: 0px;
+    border: 0.5px solid lightgray;
+}
+.centre{
+    padding-left: 10px;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    li{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(199, 199, 199);
+        }
+        .icon{
+            font-size: 18px; 
+            color: gray;
+            background-color: gray;
+        }
+        span{
+            font-size: 17px;
+            font-weight: 600;
+            color: black;
+            margin-left: 10px;
+        }
+        }
+    }
+}
+
+
+}
